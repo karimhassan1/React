@@ -19,15 +19,43 @@
 
     
     <script>
-        const createElement = document.createElement("h1");
-        createElement.innerText = "This is append child";
-        const parent = document.getElementById("parent");
-        parent.appendChild(createElement);
+        "strict use"
 
-        const heading = React.createElement("h1",{},"This is react child");
-        const papa = ReactDOM.createRoot(document.getElementById("papa"));
-        papa.render(heading);
+        
     </script>
+    <!-- console.log(this);
+    // 
+
+    // const createElement = document.createElement("h1");
+    // createElement.innerText = "This is append check child";
+    // const parent = document.getElementById("parent");
+    // parent.appendChild(createElement);
+
+    // const heading = React.createElement("h1",{},"This is the child of the react code");
+    // const papa = ReactDOM.createRoot(document.getElementById("papa"));
+    // papa.render(heading);
+    // function check(){
+    //     console.log(this)
+    // }
+    // const fn = ()=>{
+    //     console.log(this)
+    // }
+    // check();
+    // fn();
+    // console.log("-------------obj-----------------------")
+    // let obj = {
+    //     parent : console.log(this),
+
+    //     objfunction : function(){
+    //         console.log(this)
+    //     },
+    //     objArr : ()=>{
+    //         console.log(this)
+    //     }
+    // }
+    // obj.parent;
+    // obj.objfunction();
+    // obj.objArr(); -->
     
 </body>
 </html>
